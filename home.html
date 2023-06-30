@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website.">
+  <meta name="keywords" content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
+  <meta name="author" content="elemis">
+  <title>Sandbox - Modern & Multipurpose Bootstrap 5 Template</title>
+  <link rel="shortcut icon" href="./assets/img/favicon.png">
+  <link rel="stylesheet" href="./assets/css/plugins.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/colors/grape.css">
+  <link rel="preload" href="./assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="stylesheet" type="text/css" href="/static/styles.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-vt6aTNsK4RaQEu3fWIZi3n+3Om1mrTbhrhF5pX0qWePT9VCJpQf5g68NSUL4W4rR" crossorigin="anonymous">
+
+  <style>
+    /* Styles for the modal */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+
+    .modal-close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .modal-close:hover,
+    .modal-close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .video-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    
+    .background-video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1;
+    }
+    
+  </style>
+  
+</head>
+
+<body class="bg-soft-primary">
+  <div class="content-wrapper">
+    <header class="position-absolute w-100">
+      <div class="gradient-5 text-white fw-bold fs-15 mb-2 position-relative" style="z-index: 1;">
+        <!-- /.container -->
+      </div>
+      <nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100">
+            <a href="./home.html" style="display: inline-block;">
+              <img src="./media/logo-removebg-preview.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="" style="width: 100%; max-width: 400px;" />
+            </a>            
+          </div>
+          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-header d-lg-none">
+              <h3 class="text-white fs-30 mb-0">Borche</h3>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./home.html" style="color: black;">Bosh sahifa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./products.html" style="color: black;">Mahsulotlar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html" style="color: black;">Biz haqimizda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html" style="color: black;">Biz bilan bog'lanish</a>
+                </li>
+            </div>
+            <!-- /.offcanvas-body -->
+          </div>
+          <!-- /.navbar-collapse -->
+          <div class="navbar-other w-100 d-flex ms-auto">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <li class="nav-item d-none d-md-block">
+                <a href="./contact.html" class="btn btn-sm btn-primary rounded-pill" style="background-color: yellow; color: black; border-color: yellow;">Qo'ng'iroq qiling</a>
+              </li>
+              <li class="nav-item d-lg-none">
+                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+              </li>
+            </ul>
+            <!-- /.navbar-nav -->
+          </div>
+          <!-- /.navbar-other -->
+        </div>
+        <!-- /.container -->
+      </nav>
+      <!-- /.navbar -->
+    </header>
+    <!-- /header -->
+    <section class="wrapper bg-gray">
+      <div class="row position-relative">
+        <div class="container pt-10 pt-md-14 text-center">
+
+        </div>
+        <div class="position-relative" style="bottom: 0; left: 0; z-index: 2;">
+          <video src="./media/home_page_video.mp4" style="width: 100%;" autoplay loop muted></video>
+        </div>
+      </div>
+    </section>
+    <!-- /section -->
+    <footer class="bg-dark text-inverse mt-0 mt-md-16">
+      <div class="container py-13 py-md-15">
+        <div class="row gy-6 gy-lg-0 justify-content-center">
+          <div class="col-md-4 col-lg-3">
+            <div class="widget">
+              <img class="mb-4" src="./media/yellow-logo.svg" srcset="./assets/img/logo-light@2x.png 2x" alt="" style="width: 100%; max-width: 200px;"  />
+              <p>© 2023 Borche.uz</p>
+              <nav class="nav social social-white">
+                <a href="https://www.facebook.com/profile.php?id=100086471061320&mibextid=LQQJ4d"><i class="uil uil-facebook-f"></i></a>
+                <a href="https://instagram.com/borcheuz?igshid=MzRlODBiNWFlZA=="><i class="uil uil-instagram"></i></a>
+                <a href="https://youtube.com/@borcheuzbekistan5691"><i class="uil uil-youtube"></i></a>
+              </nav>
+              <!-- /.social -->
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /column -->
+          <div class="col-md-4 col-lg-3">
+            <div class="widget">
+              <h4 class="widget-title text-white mb-3">Aloqa uchun</h4>
+              <address class="pe-xl-15 pe-xxl-">348 Taxtapul ko'chasi, Toshkent, O'zbekiston</address>
+              <a href="/cdn-cgi/l/email-protection#ebc8"><span class="__cf_email__"
+                  data-cfemail="6d04030b022d08000c0401430e0200">[email&#160;protected]</span></a><br /> 00 (123) 456 78 90
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /column -->
+          <div class="col-md-4 col-lg-3">
+            <div class="widget">
+              <h4 class="widget-title text-white mb-3">Batafsil ma'lumot uchun</h4>
+              <ul class="list-unstyled  mb-0">
+                <li><a href="./about.html">Biz haqimizda</a></li>
+                <li><a href="./products.html">Mahsulotlar</a></li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </footer>
+  </div>
+  <!-- /.content-wrapper -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    // Telegram Bot API endpoint for sending messages
+    const API_ENDPOINT = 'https://api.telegram.org/bot6177338707:AAGwLo3vB_eYvmX4FWwrjTJEDEjC9ntY6Y0/sendMessage';
+
+    // Function to send a message
+    function sendMessageToTelegram(name, phone) {
+      // Compose the message text
+      const messageText = `Name: ${name}\nPhone: ${phone}`;
+
+      // Prepare the request payload
+      const payload = {
+        chat_id: 1366842245,
+        text: messageText
+      };
+
+      // Send the HTTP POST request to the Telegram Bot API
+      axios.post(API_ENDPOINT, payload)
+        .then(response => {
+          console.log('Message sent successfully!');
+        })
+        .catch(error => {
+          console.error('Failed to send the message.', error);
+        });
+    }
+
+    // Example usage
+    const form = document.getElementById('contact-form');
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      const nameInput = document.getElementById('form_name');
+      const phoneInput = document.getElementById('form_phone');
+
+      const name = nameInput.value;
+      const phone = phoneInput.value;
+
+      sendMessageToTelegram(name, phone);
+    });
+  </script>
+
+  <script>
+// Get the modal element
+var modal = document.getElementById("myModal");
+var thankYouMessage = document.getElementById("thankYouMessage");
+var contactForm = document.getElementById("contact-form");
+
+// Function to open the modal
+function openModal() {
+  modal.style.display = "block";
+}
+
+// Function to close the modal
+function closeModal() {
+  modal.style.display = "none";
+  thankYouMessage.style.display = "none"; // Hide the "Thank you" message
+  contactForm.reset(); // Reset the form
+}
+
+// Close the modal when the user clicks outside of it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    closeModal();
+  }
+}
+
+// Function to handle form submission
+function submitForm(event) {
+  event.preventDefault(); // Prevent the form from submitting normally
+  
+  // Perform form validation here if needed
+  
+  // Display the "Thank you" message and close the modal
+  thankYouMessage.style.display = "block";
+  setTimeout(closeModal, 2000); // Automatically close the modal after 2 seconds (adjust as needed)
+}
+
+// Add event listener for form submission
+contactForm.addEventListener("submit", submitForm);
+
+  </script>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="./assets/js/plugins.js"></script>
+  <script src="./assets/js/theme.js"></script>
+</body>
+
+</html>
